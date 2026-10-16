@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1791865821 source:c:\users\cc-ulkb612\desktop\Сухорукова\Сухо\проект 6 сортировка\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
