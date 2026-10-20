@@ -1,16 +1,17 @@
 #include <iostream>
-#include "hehe.h"
 
 using namespace std;
 
-
-
 int main() {
-    int a, b;
-    cout << "Raschet, vvedite dva chisla i poluchite proizvedenie: " << endl;
-    cin >> a >> b;
-    cout << tru(a, b)<<endl;
-    cout<<"This is a second function, calculation of sum: "<<endl;
-    addition(a,b);
+    const int SIZE = 5;
+    int numbers[SIZE] = {10, 20, 30, 40, 50};
+    int sum = 0;
+        for (int i = 0; i <= SIZE; i++) {
+        sum += numbers[i];
+    }
+
+    double average = static_cast<double>(sum) / SIZE;
+    cout << "Average: " << average << endl;
+
     return 0;
 }
